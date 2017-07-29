@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:gravity="center"
+    tools:context="com.example.adeogo.educationconsultant.activities.HomeFragment">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="University"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <Spinner
+        android:id="@+id/schools_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Spinner>
+</LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <Spinner
+            android:id="@+id/courses_spinner"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_apply_now"
+        android:text="Apply Now!"/>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="schools_array">
+        <item>None</item>
+        <item>Kazan State Medical University</item>
+        <item>Kazan Federal University</item>
+        <item>Nizhny Novgorod State Medical University</item>
+        <item>Mordovia State University</item>
+    </string-array>
+
+    <string-array name="courses_array">
+        <item>None</item>
+        <item>Medicine and Surgery</item>
+        <item>Engineering</item>
+    </string-array>
+</resources>
