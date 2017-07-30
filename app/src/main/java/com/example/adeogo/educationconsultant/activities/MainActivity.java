@@ -92,9 +92,17 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.home_page) {
+            HomeFragment homeFragment = new HomeFragment();
+            mFragmentManager.beginTransaction()
+                    .replace(R.id.fragment_container, homeFragment)
+                    .commit();
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.school_list) {
+            SchoolsFragment schoolsFragment = new SchoolsFragment();
+            mFragmentManager.beginTransaction()
+                    .replace(R.id.fragment_container, schoolsFragment)
+                    .commit();
 
         } else if (id == R.id.nav_slideshow) {
 
@@ -102,8 +110,11 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_share) {
 
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.about_us) {
+            FragmentAboutUs fragmentAboutUs = new FragmentAboutUs();
+        mFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, fragmentAboutUs)
+                .commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

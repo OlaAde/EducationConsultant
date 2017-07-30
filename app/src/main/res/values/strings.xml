@@ -6,7 +6,10 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_about_us">ABOUT US</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_about_us">B.D. Educational Consultants is a recognized company, having its offices both in Russia and in different cities in India. The Vision of the company is to help Indian students to attain a Medical Doctorate degree (MBBS / BDS) in Russia at a affordable prize which is recognized both by World Health Organization and The Medical Council of India. B.D.E.C. Works with 10 Governmental Medical Universities in Russia for the past 4 years. In the course we have managed to send 100 students across Russia. B.D. Educational
+        Consultants is lead by Mrs. Wendy Denzil Dmello. Our Services are open to everyone that needs help. Thank you.</string>
 </resources>

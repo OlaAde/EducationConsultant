@@ -10,7 +10,7 @@ public class School {
     private String mAboutSchool;
     private int mSchoolImage;
 
-    public void School(String SchoolName, String AboutSchool, int SchoolImage){
+    public School(String SchoolName, String AboutSchool, int SchoolImage){
         mSchoolName = SchoolName;
         mAboutSchool = AboutSchool;
         mSchoolImage = SchoolImage;
